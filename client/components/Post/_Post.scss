@@ -1,0 +1,22 @@
+.Post {
+  width: 200px;
+  height: 200px;
+  background: cyan;
+  padding: 5px;
+  margin: 25px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  @include display(flex);
+  @include align-items(center);
+  @include justify-content(center);
+  list-style-type: none;
+  -webkit-padding-start: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
+}
+
+.Text {
+  text-align: center;
+  background-color: rgba(150, 150, 150, 0.5);
+  max-width: 150px;
+}

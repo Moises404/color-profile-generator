@@ -1,0 +1,17 @@
+.Text-wrapper {
+  border-radius: 5px;
+  background: red;
+  padding: 5px 10px;
+  margin: 25px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.Text-content {
+  @include display(flex);
+  @include flex(1 0 0);
+  @include align-items(center);
+  @include justify-content(center);
+  text-align: center;
+  color: white;
+}

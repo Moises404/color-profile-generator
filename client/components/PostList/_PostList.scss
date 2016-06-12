@@ -1,0 +1,7 @@
+.PostList {
+  padding: 25px;
+	background: pink;
+  -webkit-margin-before: 0;
+  @include display(flex);
+  @include justify-content(center);
+}
