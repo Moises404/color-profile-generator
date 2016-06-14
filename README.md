@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Moises404/color-profile-generator/master/color-profile-generator.png" />
+  <img src="https://raw.githubusercontent.com/Moises404/color-profile-generator/master/color-profile-generator.jpg" />
 </p>
 
 # Color Profile Generator
