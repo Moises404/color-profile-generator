@@ -1,8 +1,12 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Art404/boiler404/master/boiler404.png" />
+  <img src="https://raw.githubusercontent.com/Moises404/color-profile-generator/master/color-profile-generator.png" />
 </p>
 
-# boiler404
+# Color Profile Generator
+
+ReactJS functional component based on color printing charts.
+
+# Tech Stack
 
 Isomorphic, React, ES6, Webpack based starter kit for quickly starting web app projects tailored for [art404](http://art404.com).
 
@@ -49,9 +53,9 @@ $ git push heroku master
 
 - Isomorphic server rendering for faster load times + seo benefits
 - Pre-render data-fetching
-- Mobile + Cookie detection as top-level props 
+- Mobile + Cookie detection as top-level props
 - SCSS + [bourbon](http://bourbon.io) framework
-- Redux developer tools + Hot Reloading 
+- Redux developer tools + Hot Reloading
 - EZ Deploy to Heroku with `npm start`
 
 # Tech Stack

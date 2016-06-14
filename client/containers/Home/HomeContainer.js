@@ -1,6 +1,6 @@
 import React from 'react'
 
-import PostApp from '../../components/PostApp/PostApp'
+import Patch from '../../components/Patch/Patch'
 
 class HomeContainer extends React.Component {
   static displayName = 'HomeContainer'
@@ -8,7 +8,7 @@ class HomeContainer extends React.Component {
   render() {
     return (
       <div className="Home">
-        <PostApp {...this.props}/>
+        <Patch {...this.props}/>
       </div>
     )
   }

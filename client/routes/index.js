@@ -5,7 +5,6 @@ import {
   AppContainer,
   HomeContainer,
   AboutContainer,
-  MapContainer
 } from '../containers'
 
 export default (
@@ -13,7 +12,6 @@ export default (
     <Route path="/" component={AppContainer}>
       <IndexRoute component={HomeContainer}/>
       <Route path="about" component={AboutContainer}/>
-      <Route path="map" component={MapContainer}/>
     </Route>
   </Router>
 )

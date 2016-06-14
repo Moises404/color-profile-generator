@@ -1,5 +1,4 @@
 import React, {PropTypes} from 'react'
-import Logo from '../Logo/Logo'
 import {Link} from 'react-router'
 
 class Navigation extends React.Component {
@@ -31,10 +30,10 @@ class Navigation extends React.Component {
         {agent === 'mobile' ? <div {...btnProps} /> : null}
         <div className="Navigation-logo">
           <Link {...logoProps}>
-            <Logo />
+            <div className="Navigation-logotype">COLOR PROFILE GENERATOR</div>
           </Link>
         </div>
-        <a className="Navigation-github" href="http://github.com/moises404/artpost-react-dom" target="_blank">
+        <a className="Navigation-github" href="http://github.com/moises404/color-profile-generator" target="_blank">
           <div className="Navigation-github-icn" />
         </a>
       </nav>

@@ -62,3 +62,13 @@
   opacity: 0.7;
 }
 
+.Navigation-logotype {
+  height: 100%;
+  width: 300px;
+  @include display(flex);
+  @include align-items(center);
+  @include justify-content(flex-start);
+  font-size: 1em;
+  font-weight: bold;
+}
+
